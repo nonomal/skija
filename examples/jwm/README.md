@@ -1,4 +1,4 @@
-This demo displays most of the Skia/Skija APIs rendered via [JWM](https://github.com/JetBrains/JWM) and is an excellent learning resource.
+This demo displays most of the Skia/Skija APIs rendered via [JWM](https://github.com/HumbleUI/JWM) and is an excellent learning resource.
 
 Run with version from Maven:
 

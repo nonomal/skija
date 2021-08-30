@@ -33,7 +33,7 @@ if(NOT FREETYPE_LIBRARIES)
   set(FREETYPE_FOUND ON)
   if (UNIX AND NOT APPLE)
     # Dynamically linked because fontconfig is dynamically linked
-    # https://github.com/JetBrains/skija/issues/113
+    # https://github.com/HumbleUI/skija/issues/113
     find_library(FREETYPE_LIBRARY freetype)
   else()
     find_library(FREETYPE_LIBRARY freetype2 PATH "${SKIA_LIBRARY_DIR}")

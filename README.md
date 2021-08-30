@@ -214,12 +214,12 @@ Prerequisites: Git, CMake, Ninja, JDK 9+, $JAVA_HOME, Python 3.
 Checkout:
 
 ```sh
-git clone https://github.com/JetBrains/skija.git
+git clone https://github.com/HumbleUI/skija.git
 cd skija
 ./script/build.py
 ```
 
-For building Skia itself, see https://github.com/JetBrains/skia-build/
+For building Skia itself, see https://github.com/HumbleUI/skia-build/
 
 ## Running examples
 

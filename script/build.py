@@ -22,7 +22,7 @@ def main():
     skia_dir = "Skia-" + args.skia_release + "-" + common.system + "-" + build_type + '-' + common.arch
     if not os.path.exists(skia_dir):
       zip = skia_dir + '.zip'
-      common.fetch('https://github.com/JetBrains/skia-build/releases/download/' + args.skia_release + '/' + zip, zip)
+      common.fetch('https://github.com/HumbleUI/skia-build/releases/download/' + args.skia_release + '/' + zip, zip)
       with zipfile.ZipFile(zip, 'r') as f:
         print("Extracting", zip)
         f.extractall(skia_dir)
